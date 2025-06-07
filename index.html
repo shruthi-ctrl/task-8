@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Responsive Blog Layout</title>
+
+  <!-- Bootstrap CSS CDN -->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet">
+
+  <!-- Bootstrap Icons -->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.css" rel="stylesheet">
+
+  <!-- Custom CSS -->
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+  <!-- Navbar -->
+  <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+    <div class="container">
+      <a class="navbar-brand" href="#">MyBlog</a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse justify-content-end" id="navbarNav">
+        <ul class="navbar-nav">
+          <li class="nav-item"><a class="nav-link active" href="#">Home</a></li>
+          <li class="nav-item"><a class="nav-link active" href="#">About</a></li>
+          <li class="nav-item"><a class="nav-link active" href="#">Contact</a></li>
+        </ul>
+      </div>
+    </div>
+  </nav>
+
+  <!-- Blog Cards -->
+  <div class="container my-5">
+    <div class="row g-4">
+
+      <!-- Card 1 -->
+      <div class="col-sm-12 col-md-6 col-lg-4">
+        <div class="card h-100 shadow-sm">
+          <img src="nature blog.jpg" class="card-img-top" >
+          <div class="card-body">
+            <h5 class="card-title text-primary">Nature Blog</h5>
+            <p class="card-text">Discover the serenity of water landscapes and their calming effect on the soul.</p>
+            <a href="#" class="btn btn-primary">Read More</a>
+          </div>
+        </div>
+      </div>
+
+      <!-- Card 2 -->
+      <div class="col-sm-12 col-md-6 col-lg-4">
+        <div class="card h-100 shadow-sm">
+          <img src="tech.jpg" class="card-img-top" >
+          <div class="card-body">
+            <h5 class="card-title text-primary">Tech Innovations</h5>
+            <p class="card-text">Explore the latest trends in technology and how they shape the future.</p>
+            <a href="#" class="btn btn-primary">Read More</a>
+          </div>
+        </div>
+      </div>
+
+      <!-- Card 3 -->
+      <div class="col-sm-12 col-md-6 col-lg-4">
+        <div class="card h-100 shadow-sm">
+          <img src="travel.jpg" class="card-img-top" >
+          <div class="card-body">
+            <h5 class="card-title text-primary">Adventure Diaries</h5>
+            <p class="card-text">Join us as we journey through some of the world's most exciting travel destinations.</p>
+            <a href="#" class="btn btn-primary">Read More</a>
+          </div>
+        </div>
+      </div>
+
+    </div>
+  </div>
+
+  <!-- Footer -->
+  <footer class="footer text-center bg-dark text-white py-4 mt-auto">
+    <div class="container">
+      <p>Follow us on</p>
+      <a href="#" class="text-white me-3"><i class="bi bi-facebook fs-4"></i></a>
+      <a href="#" class="text-white me-3"><i class="bi bi-twitter fs-4"></i></a>
+      <a href="#" class="text-white"><i class="bi bi-instagram fs-4"></i></a>
+      <p class="mt-3 mb-0">&copy; 2025 MyBlog. All Rights Reserved.</p>
+    </div>
+  </footer>
+
+  <!-- Bootstrap JS CDN -->
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
+
+  <!-- Custom JS -->
+  <script src="script.js"></script>
+</body>
+</html>
